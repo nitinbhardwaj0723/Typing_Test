@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Advanced Typing Test</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>⌨️ Typing Speed Test</h1>
+
+    <div id="text-display"></div>
+
+    <textarea id="input" placeholder="Start typing here..."></textarea>
+
+    <div class="stats">
+        ⏱ Time: <span id="time">60</span>s
+        ⚡ WPM: <span id="wpm">0</span>
+        🎯 Accuracy: <span id="accuracy">100</span>%
+    </div>
+
+    <div class="buttons">
+        <button onclick="restart()">Restart</button>
+        <button onclick="loadText()">New Text</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
